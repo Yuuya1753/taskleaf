@@ -57,10 +57,8 @@ describe 'タスク管理機能', type: :system do
 			fill_in "名称",	with: task_name
 			click_button "登録する"
 		end
-		
 
 		context '新規作成機能で名称を入力した時' do
-			
 			it '正常に登録される' do
 				expect(page).to have_selector ".alert-success", text: "新規作成のテストを書く"
 			end
@@ -76,6 +74,4 @@ describe 'タスク管理機能', type: :system do
 			end
 		end
 	end
-	
-	
 end

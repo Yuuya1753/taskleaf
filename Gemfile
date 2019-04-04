@@ -72,3 +72,5 @@ gem 'bootstrap', '~> 4.3.1'
 # gem 'sassc-rails', '>= 2.1.0'
 
 gem 'rails_autolink'
+
+gem 'ransack'
