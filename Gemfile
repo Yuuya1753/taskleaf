@@ -78,3 +78,5 @@ gem 'ransack'
 gem 'kaminari'
 
 gem 'sidekiq'
+
+gem 'webpacker'
